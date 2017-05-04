@@ -49,13 +49,13 @@ app.use(function (req, res, next) {
 });*/
 
 let cRoutes = require('./app/controller');
-app.get('/list/notebook', cRoutes.note.ListNotebook);
-app.get('/listAll/:page/:capacity', cRoutes.note.ListAll);
-app.get('/list/:notebook/:page/:capacity', cRoutes.note.List);
-app.post('/update', cRoutes.note.Update);
-app.post('/insert', cRoutes.note.Insert);
-app.get('/delete/:notebook/:title', cRoutes.note.Remove);
-app.get('/app/status', cRoutes.app.status);
+app.get('/note/list/notebook', cRoutes.note.ListNotebook);
+app.get('/note/listAll/:page/:capacity', cRoutes.note.ListAll);
+app.get('/note/list/:notebook/:page/:capacity', cRoutes.note.List);
+app.post('/note/update', cRoutes.note.Update);
+app.post('/note/insert', cRoutes.note.Insert);
+app.get('/note/delete/:notebook/:title', cRoutes.note.Remove);
+app.get('/note/app/status', cRoutes.app.status);
 
 require('./app/db').mongoose.boot();
 
