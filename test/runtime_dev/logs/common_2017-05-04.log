@@ -1,0 +1,20 @@
+[2017-05-04 20:16:44.454] [INFO] console - Running app as a module
+[2017-05-04 20:16:44.620] [INFO] server - 服务器端口：3002
+[2017-05-04 20:16:44.663] [INFO] ControllerNote - ListNotebook Api Call
+[2017-05-04 20:16:45.564] [INFO] MongoseIniter - MongoDB open
+[2017-05-04 20:16:45.669] [INFO] ControllerNote - ListAll Api Call
+[2017-05-04 20:16:45.770] [INFO] ControllerNote - List Api Call
+[2017-05-04 20:16:45.879] [INFO] ControllerNote - Insert Api Call
+[2017-05-04 20:16:45.902] [INFO] ControllerNote - Update Api Call
+[2017-05-04 20:16:45.914] [INFO] ControllerNote - Remove Api Call:notebookff t1sdfsf
+[2017-05-04 20:16:45.921] [INFO] ControllerApp - Status Api Call
+[2017-05-04 20:16:45.963] [ERROR] console - { status: 'up',
+  started_at: '2017-05-04T12:16:44.421Z',
+  node: { version: 'v7.9.0', memory: '74M', uptime: 2.918 },
+  system: 
+   { loadavg: [ 6.9150390625, 5.181640625, 3.70703125 ],
+     freeMemory: '65M' },
+  hostname: 'jsen.local',
+  connections: { '80': 0, undefined: 0 },
+  swap: {} }
+[2017-05-04 20:16:45.975] [INFO] console - 
