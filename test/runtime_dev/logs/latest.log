@@ -1,11 +1,11 @@
-[2017-05-04 20:45:09.743] [INFO] console - Running app as a module
-[2017-05-04 20:45:09.910] [INFO] server - 服务器端口：3002
-[2017-05-04 20:45:09.940] [INFO] ControllerNote - ListNotebook Api Call
-[2017-05-04 20:45:10.583] [INFO] MongoseIniter - MongoDB open
-[2017-05-04 20:45:10.687] [INFO] ControllerNote - ListAll Api Call
-[2017-05-04 20:45:10.803] [INFO] ControllerNote - List Api Call
-[2017-05-04 20:45:10.919] [INFO] ControllerNote - Insert Api Call
-[2017-05-04 20:45:10.951] [INFO] ControllerNote - Update Api Call
-[2017-05-04 20:45:10.964] [INFO] ControllerNote - Remove Api Call:notebookff t1sdfsf
-[2017-05-04 20:45:10.973] [INFO] ControllerApp - Status Api Call
-[2017-05-04 20:45:11.029] [INFO] console - 
+[2017-05-04 20:53:11.107] [INFO] console - Running app as a module
+[2017-05-04 20:53:11.262] [INFO] server - 服务器端口：3002
+[2017-05-04 20:53:11.293] [INFO] ControllerNote - ListNotebook Api Call
+[2017-05-04 20:53:11.822] [INFO] MongoseIniter - MongoDB open
+[2017-05-04 20:53:11.923] [INFO] ControllerNote - ListAll Api Call
+[2017-05-04 20:53:12.024] [INFO] ControllerNote - List Api Call
+[2017-05-04 20:53:12.123] [INFO] ControllerNote - Insert Api Call
+[2017-05-04 20:53:12.221] [INFO] ControllerNote - Update Api Call
+[2017-05-04 20:53:12.297] [INFO] ControllerNote - Remove Api Call:notebookff t1sdfsf
+[2017-05-04 20:53:12.377] [INFO] ControllerApp - Status Api Call
+[2017-05-04 20:53:12.430] [INFO] console - 

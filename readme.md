@@ -6,7 +6,7 @@
 #### TravisCI PM2 express [mocha expect superagent](app test) [grunt](auto app test) [webpack](部署前预处理，打包，未实现)
 
 travis encrypt-file ~/.ssh/id_rsa --add
-
+lsof -i:3000
 
 git pull
 git push -u origin master
