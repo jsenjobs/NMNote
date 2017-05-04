@@ -53,48 +53,45 @@ describe('notebook', function() {
 			done();
 		})
 	});
-	it('crud', function(done) {
-		data.forEach(item => {
-			superagent.post('http://localhost:'+port+'/insert')
-			.send(item)
-			.end(function(err,res){
-				let json = res.body;
-				expect(res.status).to.equal(200);
-				if(json.code !== 0) {
-					expect(json.code).to.equal(1);
-					expect(json.msg).to.equal('文件存在或处理出错');
-				} else {
-					expect(json.code).to.equal(0);
-				}
-			});
-			superagent.post('http://localhost:'+port+'/update')
-			.send(item)
-			.end(function(err,res){
-				let json = res.body;
-				expect(res.status).to.equal(200);
+	it('insert', function(done) {
+		superagent.post('http://localhost:'+port+'/insert')
+		.send(data[0])
+		.end(function(err,res){
+			let json = res.body;
+			expect(res.status).to.equal(200);
+			if(json.code !== 0) {
+				expect(json.code).to.equal(1);
+				expect(json.msg).to.equal('文件存在或处理出错');
+			} else {
 				expect(json.code).to.equal(0);
-			});
+			}
+			done();
 		});
-		done();
+	});
+	it('update', function(done) {
+		superagent.post('http://localhost:'+port+'/update')
+		.send(data[0])
+		.end(function(err,res){
+			let json = res.body;
+			expect(res.status).to.equal(200);
+			expect(json.code).to.equal(0);
+			done();
+		});
 	});
 
-});
-
-describe('del', function() {
-
-	
 	it('delete', function(done) {
 		data.forEach(item => {
 			superagent.get('http://localhost:'+port+'/delete/'+item.notebook+'/'+item.title).end(function(err,res){
 				let json = res.body;
 				expect(res.status).to.equal(200);
 				expect(json.code).to.equal(0);
+				done();
 			});
 		});
-		done();
 	});
 
 });
+
 
 describe('app status', function() {
 

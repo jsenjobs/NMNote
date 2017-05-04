@@ -18,3 +18,25 @@
   connections: { '80': 0, undefined: 0 },
   swap: {} }
 [2017-05-04 20:16:45.975] [INFO] console - 
+[2017-05-04 20:35:22.838] [INFO] console - Running app as a module
+[2017-05-04 20:35:22.991] [INFO] server - 服务器端口：3002
+[2017-05-04 20:35:23.021] [INFO] ControllerNote - ListNotebook Api Call
+[2017-05-04 20:35:24.100] [INFO] MongoseIniter - MongoDB open
+[2017-05-04 20:35:24.410] [INFO] ControllerNote - ListAll Api Call
+[2017-05-04 20:35:24.590] [INFO] ControllerNote - List Api Call
+[2017-05-04 20:35:24.764] [INFO] ControllerNote - Insert Api Call
+[2017-05-04 20:35:24.792] [INFO] ControllerNote - Update Api Call
+[2017-05-04 20:35:24.804] [INFO] ControllerNote - Remove Api Call:notebookff t1sdfsf
+[2017-05-04 20:35:24.810] [INFO] ControllerApp - Status Api Call
+[2017-05-04 20:35:24.853] [INFO] console - 
+[2017-05-04 20:45:09.743] [INFO] console - Running app as a module
+[2017-05-04 20:45:09.910] [INFO] server - 服务器端口：3002
+[2017-05-04 20:45:09.940] [INFO] ControllerNote - ListNotebook Api Call
+[2017-05-04 20:45:10.583] [INFO] MongoseIniter - MongoDB open
+[2017-05-04 20:45:10.687] [INFO] ControllerNote - ListAll Api Call
+[2017-05-04 20:45:10.803] [INFO] ControllerNote - List Api Call
+[2017-05-04 20:45:10.919] [INFO] ControllerNote - Insert Api Call
+[2017-05-04 20:45:10.951] [INFO] ControllerNote - Update Api Call
+[2017-05-04 20:45:10.964] [INFO] ControllerNote - Remove Api Call:notebookff t1sdfsf
+[2017-05-04 20:45:10.973] [INFO] ControllerApp - Status Api Call
+[2017-05-04 20:45:11.029] [INFO] console - 
