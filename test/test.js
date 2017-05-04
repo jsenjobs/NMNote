@@ -7,23 +7,14 @@ var shutdown = require('../server').shutdown;
 var port = require('../server').port;
 var superagent = require('superagent');
 var expect = require('expect.js');
-let _ = require('lodash');
 
-let notebooks = ['notebookff'];
-let notes = [{title:'t1sdfsf',describe:'desdfdss1',url:'ursdf1',author:'ausfds1'}];
-let data = [];
+let data = [{notebook:'notebookff',title:'t1sdfsf',describe:'desdfdss1',url:'ursdf1',author:'ausfds1'}];
 describe('server', function () {
 	before(function() {
 		boot();
-		notebooks.forEach(notebookP => {
-			notes.forEach(noteP => {
-				data.push(_.assign({notebook:notebookP}, noteP));
-			})
-		})
 	});
 
 describe('notebook', function() {
-	/*
 	it('list notebook', function(done) {
 		superagent.get('http://localhost:'+port+'/list/notebook').end(function(err,res){
 			let json = res.body;
@@ -69,7 +60,6 @@ describe('notebook', function() {
 			done();
 		});
 	});
-	*/
 	it('update', function(done) {
 		superagent.post('http://localhost:'+port+'/update')
 		.send(data[0])
@@ -89,11 +79,6 @@ describe('notebook', function() {
 			done();
 		});
 	});
-
-});
-
-
-describe('app status', function() {
 
 	it('show app status', function(done) {
 		superagent.get('http://localhost:'+port+'/app/status?info=true').end(function(err,res){
