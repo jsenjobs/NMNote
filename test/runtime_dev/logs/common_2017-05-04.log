@@ -62,3 +62,11 @@
 [2017-05-04 21:16:57.645] [INFO] ControllerNote - Remove Api Call:notebookff t1sdfsf
 [2017-05-04 21:16:57.723] [INFO] ControllerApp - Status Api Call
 [2017-05-04 21:16:57.773] [INFO] console - 
+[2017-05-04 21:25:58.430] [INFO] console - Running app as a module
+[2017-05-04 21:25:58.529] [INFO] server - 服务器端口：3002
+[2017-05-04 21:25:58.564] [INFO] ControllerApp - Status Api Call
+[2017-05-04 21:25:58.645] [INFO] console - 
+[2017-05-04 21:29:53.085] [INFO] console - Running app as a module
+[2017-05-04 21:29:53.173] [INFO] server - 服务器端口：3002
+[2017-05-04 21:29:53.206] [INFO] ControllerApp - Status Api Call
+[2017-05-04 21:29:53.273] [INFO] console - 

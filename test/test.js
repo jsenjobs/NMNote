@@ -9,14 +9,18 @@ var superagent = require('superagent');
 var expect = require('expect.js');
 
 let data = [{notebook:'notebookff',title:'t1sdfsf',describe:'desdfdss1',url:'ursdf1',author:'ausfds1'}];
+
 describe('server', function () {
 	before(function() {
 		boot();
 	});
 
 describe('notebook', function() {
+	/*
 	it('list notebook', function(done) {
-		superagent.get('http://localhost:'+port+'/list/notebook').end(function(err,res){
+		superagent
+		.get('http://localhost:'+port+'/list/notebook')
+		.end(function(err,res){
 			let json = res.body;
 			expect(res.status).to.equal(200);
 			expect(json.code).to.equal(0);
@@ -25,7 +29,9 @@ describe('notebook', function() {
 		})
 	});
 	it('list all note', function(done) {
-		superagent.get('http://localhost:'+port+'/listAll/1/20').end(function(err,res){
+		superagent
+		.get('http://localhost:'+port+'/listAll/1/20')
+		.end(function(err,res){
 			let json = res.body;
 			expect(res.status).to.equal(200);
 			expect(json.code).to.equal(0);
@@ -79,9 +85,11 @@ describe('notebook', function() {
 			done();
 		});
 	});
-
+	*/
 	it('show app status', function(done) {
-		superagent.get('http://localhost:'+port+'/app/status?info=true').end(function(err,res){
+		superagent
+		.get('http://localhost:'+port+'/app/status?info=true')
+		.end(function(err,res){
 			let json = res.body;
 			expect(res.status).to.equal(200);
 			expect(json.status).to.be.equal('up');
