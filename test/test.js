@@ -88,7 +88,7 @@ describe('notebook', function() {
 	*/
 	it('show app status', function(done) {
 		superagent
-		.get('http://localhost:'+port+'/note/app/status?info=true')
+		.get('http://localhost:'+port+'/app/status?info=true')
 		.end(function(err,res){
 			let json = res.body;
 			expect(res.status).to.equal(200);
