@@ -8,6 +8,11 @@
 travis encrypt-file ~/.ssh/id_rsa --add
 lsof -i:3000
 
+// 查看配置是否正确
+/usr/nginx/sbin/nginx -t 
+/usr/nginx/sbin/nginx
+/usr/nginx/sbin/nginx -s reload
+
 git pull
 git push -u origin master
 ssh_config 持续部署（Travis ssh需求)

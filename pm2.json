@@ -5,13 +5,11 @@
     "watch"       : true,
     "env": {
       "NODE_ENV": "development",
-      "PORT":3002,
-      "HOST":"120.25.217.56"
+      "PORT":3002
     },
     "env_production" : {
       "NODE_ENV": "production",
-      "PORT":3002,
-      "HOST":"120.25.217.56"
+      "PORT":3002
     }
   }]
 }

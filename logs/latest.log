@@ -1,4 +1,4 @@
-[2017-05-04 20:16:05.979] [INFO] console - worker (13672) is running
-[2017-05-04 20:16:07.489] [INFO] console - Running app as a module
-[2017-05-04 20:16:07.501] [INFO] server - 服务器端口：3002
-[2017-05-04 20:16:10.152] [INFO] MongoseIniter - MongoDB open
+[2017-05-04 22:27:47.748] [INFO] console - worker (17444) is running
+[2017-05-04 22:27:49.097] [INFO] console - Running app as a module
+[2017-05-04 22:27:49.109] [INFO] server - 服务器端口：3002
+[2017-05-04 22:27:49.987] [INFO] MongoseIniter - MongoDB open
